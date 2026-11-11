@@ -1,6 +1,6 @@
 def is_even(n):
     """true for even numbers"""
-    return n % 2 == 1
+    return n % 2 == 0
 
 
 def rectangle_area(width, height):

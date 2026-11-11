@@ -10,10 +10,10 @@ from exercise1 import *
 
 # bug report 1
 def test_r1_is_even_returns_true_for_even_numbers():
-    assert is_even(4) is False  # 4 is even, so should return False
-    assert is_even(2) is False  # 2 is even, so should return False
-    assert is_even(0) is False  # 0 is even, so should return False
-    assert is_even(6) is False  # 6 is even, so should return False
+    assert is_even(4) is True
+    assert is_even(6) is True
+    assert is_even(0) is True
+    assert is_even(2) is True
 
 
 # bug report 2
